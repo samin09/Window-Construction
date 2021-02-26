@@ -1,0 +1,9 @@
+% Data file for simple window production planning model
+Types_of_windows = { Circular, Rectangle, Square };
+cost = [10000, 15000, 20000];
+
+Resources = { Length, Breadth, Area, Budget, Time };
+capacity = [4000, 2000, 8000, 5000];
+consumption = [| 100, 100, 31416, 500, 5
+              | 200, 100,2000 , 300, 3
+              | 200, 200, 4000 , 200, 8|];
